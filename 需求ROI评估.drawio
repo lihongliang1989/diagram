@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T04:19:02.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="NH8nm-v8lEgvzbSk7T8V" version="14.8.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-07T04:21:36.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="21qwKf-o5gA-0m7T9oGh" version="14.8.4" type="github" pages="2">
   <diagram id="ggWnLG_wP8Kk30JT-ifE" name="业务梳理">
     <mxGraphModel dx="1255" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="nQql46LIV5WjsXb4jFWQ-3" value="运营" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D2-eCzciVdiz-hn595E9-1">
           <mxGeometry x="80" y="350" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nQql46LIV5WjsXb4jFWQ-4" value="产品经理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D2-eCzciVdiz-hn595E9-1">
+        <mxCell id="nQql46LIV5WjsXb4jFWQ-4" value="APP产品经理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D2-eCzciVdiz-hn595E9-1">
           <mxGeometry x="210" y="350" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nQql46LIV5WjsXb4jFWQ-5" value="业务研发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D2-eCzciVdiz-hn595E9-1">
@@ -135,6 +135,12 @@
         </mxCell>
         <mxCell id="yitP4v1WWHwx6aXv97Ou-7" value="UMP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D2-eCzciVdiz-hn595E9-1">
           <mxGeometry x="210" y="770" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HyrAu3JTD7GZAr0YoW_B-0" value="业务产品经理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D2-eCzciVdiz-hn595E9-1">
+          <mxGeometry x="80" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HyrAu3JTD7GZAr0YoW_B-2" value="埋点产品经理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D2-eCzciVdiz-hn595E9-1">
+          <mxGeometry x="210" y="400" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
