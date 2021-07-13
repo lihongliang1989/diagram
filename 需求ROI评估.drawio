@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T11:27:39.473Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="4R4vzt-3qPnClgV-RVbT" version="14.8.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-13T12:43:16.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="LiKpoNOkVTvh4PtbEm7U" version="14.8.4" type="github" pages="3">
   <diagram id="ggWnLG_wP8Kk30JT-ifE" name="业务梳理">
     <mxGraphModel dx="935" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -349,7 +349,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZGJNX0eyqrmPqDCKX0lG" name="功能结构图">
-    <mxGraphModel dx="1387" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="935" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="s-UNbpr8aLWubmz6Ibig-0" />
         <mxCell id="s-UNbpr8aLWubmz6Ibig-1" parent="s-UNbpr8aLWubmz6Ibig-0" />
@@ -431,6 +431,14 @@
         <mxCell id="shXzTShfsGQhY9vKl6Ym-17" value="ROI取数脚本维护维护" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
           <mxGeometry x="430" y="360" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="EvB3_N1YGmJXcVZzWm29-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#B3B3B3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="s-UNbpr8aLWubmz6Ibig-1" source="shXzTShfsGQhY9vKl6Ym-18" target="EvB3_N1YGmJXcVZzWm29-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="481" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvB3_N1YGmJXcVZzWm29-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#B3B3B3;" edge="1" parent="s-UNbpr8aLWubmz6Ibig-1" source="shXzTShfsGQhY9vKl6Ym-18" target="EvB3_N1YGmJXcVZzWm29-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="shXzTShfsGQhY9vKl6Ym-18" value="需求收益分析" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
           <mxGeometry x="430" y="466" width="120" height="30" as="geometry" />
         </mxCell>
@@ -438,7 +446,7 @@
           <mxGeometry x="430" y="606" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="shXzTShfsGQhY9vKl6Ym-23" value="需求基础信息&lt;br&gt;增、删、改、查" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
-          <mxGeometry x="610" y="200" width="120" height="30" as="geometry" />
+          <mxGeometry x="610" y="190" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="shXzTShfsGQhY9vKl6Ym-27" value="需求成本分析" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
           <mxGeometry x="430" y="516" width="120" height="30" as="geometry" />
@@ -463,6 +471,12 @@
         </mxCell>
         <mxCell id="gs1pzszD7GhCemKrzosg-0" value="需求ROI度量指标添加" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
           <mxGeometry x="610" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvB3_N1YGmJXcVZzWm29-2" value="同步abtest结果数据" style="rounded=1;whiteSpace=wrap;html=1;opacity=50;glass=1;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
+          <mxGeometry x="610" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvB3_N1YGmJXcVZzWm29-3" value="dbp平台离线提数" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;shadow=0;strokeColor=#82b366;fillColor=#d5e8d4;glass=1;opacity=50;sketch=0;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
+          <mxGeometry x="610" y="496" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
