@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T09:27:20.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="rPx57BCEKuX8RS1WF-Ov" version="14.8.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-14T09:33:17.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="dLKH3EVfujoDdwTv0VKt" version="14.8.4" type="github" pages="4">
   <diagram id="ggWnLG_wP8Kk30JT-ifE" name="业务梳理">
     <mxGraphModel dx="935" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -803,6 +803,14 @@
         </mxCell>
         <mxCell id="96gm2u8HjOuhpYSnLep6-35" value="ROI提数核心方案设计" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
           <mxGeometry x="40" y="-90" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGoLoMWf6mh9AONVUoIb-2" value="比如：购物车模块plus续费人数新增3000/天" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;glass=0;sketch=0;fontColor=#000000;fillColor=#FFFFFF;opacity=50;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
+          <mxGeometry x="310" y="378" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YGoLoMWf6mh9AONVUoIb-3" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" target="YGoLoMWf6mh9AONVUoIb-2" parent="4GLksmkArt6khVrffKcs-1" source="J_A7BK5qoyiIlS-XXymT-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="440" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
