@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T10:54:51.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="7SRK-sybGhBUA4Xor-Zh" version="14.8.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-14T12:23:05.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ZOFQoa9Znl-xjvmLlp3Q" version="14.8.4" type="github" pages="4">
   <diagram id="ggWnLG_wP8Kk30JT-ifE" name="业务梳理">
     <mxGraphModel dx="935" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -678,7 +678,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PH179g1xA60Us9WeYQfu" name="ROI提数核心实现方案">
-    <mxGraphModel dx="935" dy="1852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1100" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4GLksmkArt6khVrffKcs-0" />
         <mxCell id="4GLksmkArt6khVrffKcs-1" parent="4GLksmkArt6khVrffKcs-0" />
@@ -704,8 +704,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w5S_RfABiI_3dPok3VdM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="4GLksmkArt6khVrffKcs-1" source="J_A7BK5qoyiIlS-XXymT-1" target="NRGD8ADAeKcQjTb1EtIE-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="w5S_RfABiI_3dPok3VdM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="4GLksmkArt6khVrffKcs-1" source="J_A7BK5qoyiIlS-XXymT-1" target="w5S_RfABiI_3dPok3VdM-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="110" />
+              <mxPoint x="260" y="210" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="w5S_RfABiI_3dPok3VdM-8" value="方案2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="w5S_RfABiI_3dPok3VdM-7">
           <mxGeometry x="-0.0756" y="-1" relative="1" as="geometry">
@@ -790,12 +796,6 @@
             <mxPoint x="200" y="390" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w5S_RfABiI_3dPok3VdM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="4GLksmkArt6khVrffKcs-1" source="NRGD8ADAeKcQjTb1EtIE-2" target="w5S_RfABiI_3dPok3VdM-0">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NRGD8ADAeKcQjTb1EtIE-2" value="&lt;font color=&quot;#000000&quot;&gt;创建标准ROI脚本（可复用）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#97D077;gradientColor=none;opacity=50;fillColor=#FFFFFF;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
-          <mxGeometry x="280" y="190" width="90" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="w5S_RfABiI_3dPok3VdM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="4GLksmkArt6khVrffKcs-1" source="w5S_RfABiI_3dPok3VdM-0" target="96gm2u8HjOuhpYSnLep6-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -807,6 +807,12 @@
         </mxCell>
         <mxCell id="w5S_RfABiI_3dPok3VdM-9" value="创建非标砖ROI脚本" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#b85450;fillColor=#f8cecc;align=center;opacity=50;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
           <mxGeometry x="270" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w5S_RfABiI_3dPok3VdM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="4GLksmkArt6khVrffKcs-1" source="w5S_RfABiI_3dPok3VdM-14" target="w5S_RfABiI_3dPok3VdM-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w5S_RfABiI_3dPok3VdM-14" value="创建标砖ROI脚本（可复用）" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#b85450;fillColor=#f8cecc;align=center;opacity=50;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
+          <mxGeometry x="270" y="190" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
