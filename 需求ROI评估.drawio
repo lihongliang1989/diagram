@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T12:43:43.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Tcna0wiyUI-2pkiPLwsb" version="14.8.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-14T12:45:24.488Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="X6YKBTX5r3uviqtAzKQh" version="14.8.4" type="github" pages="4">
   <diagram id="ggWnLG_wP8Kk30JT-ifE" name="业务梳理">
     <mxGraphModel dx="935" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -684,7 +684,7 @@
         <mxCell id="EvB3_N1YGmJXcVZzWm29-17" value="手工录入" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;shadow=0;strokeColor=#82b366;fillColor=#d5e8d4;glass=1;opacity=50;sketch=0;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
           <mxGeometry x="610" y="576" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nYv7QZa5YYATUVHrQTGS-0" value="调用abtest接口创建实验" style="rounded=1;whiteSpace=wrap;html=1;opacity=50;glass=1;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
+        <mxCell id="nYv7QZa5YYATUVHrQTGS-0" value="调用abtest接口创建实验" style="rounded=1;whiteSpace=wrap;html=1;opacity=50;glass=1;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
           <mxGeometry x="790" y="160" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
@@ -734,8 +734,8 @@
         <mxCell id="J_A7BK5qoyiIlS-XXymT-1" value="&lt;font color=&quot;#000000&quot;&gt;标准ROI口径&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#97D077;gradientColor=none;opacity=50;fillColor=#FFFFFF;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
           <mxGeometry x="160" y="90" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="J_A7BK5qoyiIlS-XXymT-2" value="比如：订单量、GMV、曝光量等试金石通用指标" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;glass=0;sketch=0;fillColor=#FFFFFF;opacity=50;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
-          <mxGeometry x="230" y="-10" width="300" height="30" as="geometry" />
+        <mxCell id="J_A7BK5qoyiIlS-XXymT-2" value="比如：订单量、GMV、曝光量等试金石通用指标&lt;br&gt;但实际需求中标准ROI指标占比较低" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;glass=0;sketch=0;fillColor=#FFFFFF;opacity=50;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
+          <mxGeometry x="230" y="-15" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J_A7BK5qoyiIlS-XXymT-3" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontColor=#97D077;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" target="J_A7BK5qoyiIlS-XXymT-2" parent="4GLksmkArt6khVrffKcs-1" source="J_A7BK5qoyiIlS-XXymT-1">
           <mxGeometry relative="1" as="geometry">
