@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T09:23:26.342Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="1GTCtAHI43EDikaEypeI" version="14.8.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-14T09:27:20.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="rPx57BCEKuX8RS1WF-Ov" version="14.8.4" type="github" pages="4">
   <diagram id="ggWnLG_wP8Kk30JT-ifE" name="业务梳理">
     <mxGraphModel dx="935" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -800,6 +800,9 @@
         </mxCell>
         <mxCell id="96gm2u8HjOuhpYSnLep6-30" value="&lt;font color=&quot;#000000&quot;&gt;勾选非标准指标&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#97D077;gradientColor=none;opacity=50;fillColor=#FFFFFF;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
           <mxGeometry x="414" y="310" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="96gm2u8HjOuhpYSnLep6-35" value="ROI提数核心方案设计" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
+          <mxGeometry x="40" y="-90" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
