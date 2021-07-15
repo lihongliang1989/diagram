@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T12:46:38.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="-Sgr9sQNg0T-1E-4nDC9" version="14.8.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-15T10:58:16.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="PoJAAnafe5tS80BkmW9E" version="14.8.4" type="github" pages="4">
   <diagram id="ggWnLG_wP8Kk30JT-ifE" name="业务梳理">
     <mxGraphModel dx="935" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -687,11 +687,19 @@
         <mxCell id="nYv7QZa5YYATUVHrQTGS-0" value="调用abtest接口创建实验" style="rounded=1;whiteSpace=wrap;html=1;opacity=50;glass=1;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
           <mxGeometry x="790" y="160" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6RXLrDlk4Qs70C4Seu8_-0" value="行云录入阻塞点：&lt;br&gt;1.各组需求录入形式不同，拆需求粒度不同&lt;br&gt;2.考核机制中有一条统计需求卡片数量，能否优化" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;glass=0;dashed=1;sketch=0;fontColor=#000000;fillColor=#FFFFFF;opacity=50;" vertex="1" parent="s-UNbpr8aLWubmz6Ibig-1">
+          <mxGeometry x="858" y="18" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6RXLrDlk4Qs70C4Seu8_-1" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontColor=#000000;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" target="6RXLrDlk4Qs70C4Seu8_-0" parent="s-UNbpr8aLWubmz6Ibig-1" source="EvB3_N1YGmJXcVZzWm29-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="PH179g1xA60Us9WeYQfu" name="ROI提数核心实现方案">
-    <mxGraphModel dx="1100" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="935" dy="1852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4GLksmkArt6khVrffKcs-0" />
         <mxCell id="4GLksmkArt6khVrffKcs-1" parent="4GLksmkArt6khVrffKcs-0" />
