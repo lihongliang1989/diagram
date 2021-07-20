@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T06:39:55.194Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="P2gUGmauRNwgMgTtjYI8" version="14.8.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-07-20T07:12:11.953Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="FkHpvAZ_mylaS_M_v07P" version="14.8.4" type="github" pages="6">
   <diagram id="ggWnLG_wP8Kk30JT-ifE" name="业务梳理">
     <mxGraphModel dx="1101" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -699,7 +699,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PH179g1xA60Us9WeYQfu" name="ROI提数核心实现方案">
-    <mxGraphModel dx="1295" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1295" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4GLksmkArt6khVrffKcs-0" />
         <mxCell id="4GLksmkArt6khVrffKcs-1" parent="4GLksmkArt6khVrffKcs-0" />
@@ -857,10 +857,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1IoGe3MGmb3BNaHd2nA7" name="BDP提数">
-    <mxGraphModel dx="1101" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1101" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6j1QGgGU4jkFf7nPbfOz-0" />
         <mxCell id="6j1QGgGU4jkFf7nPbfOz-1" parent="6j1QGgGU4jkFf7nPbfOz-0" />
+        <mxCell id="wFl12EoMQHPXegM7vBq2-0" value="最复杂的逻辑实现" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;dashed=1;strokeWidth=2;strokeColor=#FF0000;verticalAlign=top;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
+          <mxGeometry x="30" y="140" width="650" height="190" as="geometry" />
+        </mxCell>
         <mxCell id="hFxdj96ezUSJlt7klt7F-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="6j1QGgGU4jkFf7nPbfOz-2" target="hFxdj96ezUSJlt7klt7F-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -870,7 +873,7 @@
         <mxCell id="hFxdj96ezUSJlt7klt7F-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-1" target="hFxdj96ezUSJlt7klt7F-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LdAryUXtQdCJKCRN24Bx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-1" target="LdAryUXtQdCJKCRN24Bx-0">
+        <mxCell id="LdAryUXtQdCJKCRN24Bx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-1" target="LdAryUXtQdCJKCRN24Bx-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hFxdj96ezUSJlt7klt7F-1" value="方舟数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
@@ -886,19 +889,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hFxdj96ezUSJlt7klt7F-3" value="buffalo平台创建周期调度任务" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
-          <mxGeometry x="330" y="110" width="120" height="30" as="geometry" />
+          <mxGeometry x="330" y="80" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hFxdj96ezUSJlt7klt7F-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-7" target="hFxdj96ezUSJlt7klt7F-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hFxdj96ezUSJlt7klt7F-7" value="离线数仓" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
-          <mxGeometry x="510" y="255" width="130" height="80" as="geometry" />
+          <mxGeometry x="510" y="230" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hFxdj96ezUSJlt7klt7F-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-11" target="hFxdj96ezUSJlt7klt7F-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hFxdj96ezUSJlt7klt7F-11" value="大数据平台离线计算" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
-          <mxGeometry x="330" y="280" width="120" height="30" as="geometry" />
+          <mxGeometry x="330" y="255" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hFxdj96ezUSJlt7klt7F-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-12" target="hFxdj96ezUSJlt7klt7F-1">
           <mxGeometry relative="1" as="geometry" />
@@ -907,18 +910,27 @@
           <mxGeometry x="330" y="370" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LdAryUXtQdCJKCRN24Bx-0" value="方舟平台数据可视化" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
-          <mxGeometry x="70" y="270" width="120" height="30" as="geometry" />
+          <mxGeometry x="60" y="370" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="d03YyA6S3WK2X2OZMkM8" name="Page-5">
-    <mxGraphModel dx="1101" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1101" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iozsOuYSJRYAGj00sB0V-0" />
         <mxCell id="iozsOuYSJRYAGj00sB0V-1" parent="iozsOuYSJRYAGj00sB0V-0" />
         <mxCell id="iozsOuYSJRYAGj00sB0V-2" value="需求收益类型：&lt;br&gt;1.节约成本型，现有的人力 + 机器成本；完成后的 人力 + 机器成品；&lt;br&gt;&lt;br&gt;2.提升效率型，现有效率；完成后的效率；&lt;br&gt;&lt;br&gt;3.提高营收型，现有 单量、GMV；完成后的 单量、GMV&lt;br&gt;&lt;br&gt;4.提升用户体验型，现有的客诉；完成后的客诉；" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="iozsOuYSJRYAGj00sB0V-1">
-          <mxGeometry x="240" y="130" width="410" height="300" as="geometry" />
+          <mxGeometry x="380" y="210" width="410" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xICn-oOg-Hud4KuMVcs0-0" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="iozsOuYSJRYAGj00sB0V-1">
+          <mxGeometry x="440" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xICn-oOg-Hud4KuMVcs0-1" value="线上化、体系化" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="iozsOuYSJRYAGj00sB0V-1">
+          <mxGeometry x="70" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xICn-oOg-Hud4KuMVcs0-2" value="自动化、智能化" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="iozsOuYSJRYAGj00sB0V-1">
+          <mxGeometry x="70" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
