@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-19T09:07:11.585Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="s_wp6QRXXqkblopHOMKt" version="14.8.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-07-20T06:39:55.194Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="P2gUGmauRNwgMgTtjYI8" version="14.8.4" type="github" pages="6">
   <diagram id="ggWnLG_wP8Kk30JT-ifE" name="业务梳理">
     <mxGraphModel dx="1101" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -505,7 +505,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZGJNX0eyqrmPqDCKX0lG" name="功能结构图">
-    <mxGraphModel dx="1573" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1573" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="s-UNbpr8aLWubmz6Ibig-0" />
         <mxCell id="s-UNbpr8aLWubmz6Ibig-1" parent="s-UNbpr8aLWubmz6Ibig-0" />
@@ -771,9 +771,11 @@
         <mxCell id="96gm2u8HjOuhpYSnLep6-4" value="客户端上报实验id埋点信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;opacity=50;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
           <mxGeometry x="637" y="250" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="96gm2u8HjOuhpYSnLep6-10" value="方舟服务端对接bdp平台进行提数逻辑实现" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#b85450;fillColor=#f8cecc;opacity=50;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
-          <mxGeometry x="747" y="400" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="方舟服务端对接bdp平台进行提数逻辑实现" link="data:page/id,1IoGe3MGmb3BNaHd2nA7" id="96gm2u8HjOuhpYSnLep6-10">
+          <mxCell style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#b85450;fillColor=#f8cecc;opacity=50;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
+            <mxGeometry x="747" y="400" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="96gm2u8HjOuhpYSnLep6-13" value="&lt;font color=&quot;#000000&quot;&gt;勾选标准指标&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#97D077;gradientColor=none;opacity=50;fillColor=#FFFFFF;" vertex="1" parent="4GLksmkArt6khVrffKcs-1">
           <mxGeometry x="347" y="250" width="80" height="40" as="geometry" />
         </mxCell>
@@ -850,6 +852,62 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="835" y="540" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1IoGe3MGmb3BNaHd2nA7" name="BDP提数">
+    <mxGraphModel dx="1101" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="6j1QGgGU4jkFf7nPbfOz-0" />
+        <mxCell id="6j1QGgGU4jkFf7nPbfOz-1" parent="6j1QGgGU4jkFf7nPbfOz-0" />
+        <mxCell id="hFxdj96ezUSJlt7klt7F-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="6j1QGgGU4jkFf7nPbfOz-2" target="hFxdj96ezUSJlt7klt7F-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6j1QGgGU4jkFf7nPbfOz-2" value="方舟平台编写sql脚本" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
+          <mxGeometry x="70" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-1" target="hFxdj96ezUSJlt7klt7F-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LdAryUXtQdCJKCRN24Bx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-1" target="LdAryUXtQdCJKCRN24Bx-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-1" value="方舟数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
+          <mxGeometry x="230" y="165" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-2" target="hFxdj96ezUSJlt7klt7F-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-2" value="提数程序程序同步提数脚本" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
+          <mxGeometry x="330" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-3" target="hFxdj96ezUSJlt7klt7F-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-3" value="buffalo平台创建周期调度任务" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
+          <mxGeometry x="330" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-7" target="hFxdj96ezUSJlt7klt7F-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-7" value="离线数仓" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
+          <mxGeometry x="510" y="255" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-11" target="hFxdj96ezUSJlt7klt7F-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-11" value="大数据平台离线计算" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
+          <mxGeometry x="330" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="6j1QGgGU4jkFf7nPbfOz-1" source="hFxdj96ezUSJlt7klt7F-12" target="hFxdj96ezUSJlt7klt7F-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hFxdj96ezUSJlt7klt7F-12" value="数据回写" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
+          <mxGeometry x="330" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LdAryUXtQdCJKCRN24Bx-0" value="方舟平台数据可视化" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;opacity=50;" vertex="1" parent="6j1QGgGU4jkFf7nPbfOz-1">
+          <mxGeometry x="70" y="270" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
