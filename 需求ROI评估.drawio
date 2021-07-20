@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T08:24:05.961Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="DnFTjoHq9hmeHGKLgodx" version="14.8.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-07-20T09:02:06.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="CuvJb2VAfGV2TJoDZXsO" version="14.8.4" type="github" pages="6">
   <diagram id="ggWnLG_wP8Kk30JT-ifE" name="业务梳理">
     <mxGraphModel dx="1101" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -505,7 +505,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZGJNX0eyqrmPqDCKX0lG" name="功能结构图">
-    <mxGraphModel dx="1101" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1101" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="s-UNbpr8aLWubmz6Ibig-0" />
         <mxCell id="s-UNbpr8aLWubmz6Ibig-1" parent="s-UNbpr8aLWubmz6Ibig-0" />
@@ -702,7 +702,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PH179g1xA60Us9WeYQfu" name="ROI提数核心实现方案">
-    <mxGraphModel dx="881" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="881" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4GLksmkArt6khVrffKcs-0" />
         <mxCell id="4GLksmkArt6khVrffKcs-1" parent="4GLksmkArt6khVrffKcs-0" />
@@ -860,7 +860,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1IoGe3MGmb3BNaHd2nA7" name="BDP提数">
-    <mxGraphModel dx="734" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="734" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6j1QGgGU4jkFf7nPbfOz-0" />
         <mxCell id="6j1QGgGU4jkFf7nPbfOz-1" parent="6j1QGgGU4jkFf7nPbfOz-0" />
@@ -965,7 +965,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d03YyA6S3WK2X2OZMkM8" name="Page-5">
-    <mxGraphModel dx="1101" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1101" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iozsOuYSJRYAGj00sB0V-0" />
         <mxCell id="iozsOuYSJRYAGj00sB0V-1" parent="iozsOuYSJRYAGj00sB0V-0" />
